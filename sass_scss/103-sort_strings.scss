@@ -1,0 +1,7 @@
+@import '103-sort_list';
+
+// Sass file that sorts the list using the built-in sort() function
+$list_sorted: sort($list_to_sort);
+
+// Sass file that prints the sorted list in the debug output
+@debug $list_sorted;
